@@ -1,0 +1,27 @@
+{
+  "name": "qmedia",
+  "version": "0.1.2",
+  "description": "React component for adaptive components",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepublish": "babel src -d lib"
+  },
+  "author": "Kublyakov <kirill@kublyakov.ru>",
+  "license": "MIT",
+  "keywords": [
+    "React",
+    "Media-queries",
+    "mobile",
+    "adaptive",
+    "polyfill"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0"
+  }
+}
